@@ -1,0 +1,166 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6%;
+}
+
+html{
+    height: 150%;
+}
+
+.footer
+{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+}
+
+a
+{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h1
+{
+    color: rgb(41, 116, 255);
+    margin-right: 50%;
+    font-weight: normal;
+    margin-top: .4%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#bgimg 
+{
+    background-image: linear-gradient(90deg, rgba(119,197,255,1) 0%, rgba(42,121,242,1) 16%, rgba(50,121,225,1) 79%, rgba(48,192,222,1) 100%);
+}
+
+#title
+{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: .5in;
+    font-size: 300%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blankBox
+{
+    width: 15% !important;
+    height: 5% !important;
+    box-sizing: border-box !important;
+    padding: 20px !important;
+    margin: 1% !important;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    border: none !important;
+    background-color: white !important;
+    color: rgb(41, 116, 255) !important;
+    font-family: Arial !important;
+    font-size: medium !important;
+    text-align: center !important;
+}
+
+#submitButton
+{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    height: 10%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41, 116, 255);
+    background-color: white;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#finished
+{
+    font-size: 100%;
+    text-align: center;
+    color: rgb(41, 116, 255) !important;
+    margin: 13%;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    font-weight: bold;
+    line-height: 300%;
+}
+
+#new
+{
+    display: block;
+    width: 10%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    
+    color: rgb(41, 116, 255);
+    font-family: Arial;
+    background-color: white;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+.hidden-class
+{
+    display: none !important;
+}
+
+#newBodyButton
+{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41, 116, 255);
+    background-color: white;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#openingTitle
+{
+    padding-top: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 200%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
